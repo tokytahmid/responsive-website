@@ -1,3 +1,2 @@
-
-        console.log("This is an inline script.");
+console.log("This is an inline script.");
     
