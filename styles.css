@@ -1,19 +1,22 @@
-.all-browsers {
-  margin: 0;
-  padding: 5px;
-  background-color: lightgray;
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+:root {
+    --bg-color: #0c0c0c;
+    --text-color: #fff;
+    --main-color: #ae8957;
+
+    --big-font: 6.6rem;
+    --p-font: 1rem;
 }
 
-.all-browsers > h1, .browser {
-  margin: 10px;
-  padding: 5px;
-}
-
-.browser {
-  background: white;
-}
-
-.browser > h2, p {
-  margin: 4px;
-  font-size: 90%;
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
